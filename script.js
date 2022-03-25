@@ -8,4 +8,6 @@ fetch("./words.json")
 .then(response => {
    return response.json();
 })
+// Prints out the data that was fetched from the json file
 .then(data => console.log(data));
+
